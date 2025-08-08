@@ -2,7 +2,7 @@
 
 int main(){
 
-    // Declarando as variáveis para a primeira carta:
+    //  Declarando as variáveis para a primeira carta:
     char estado1;
     char codigoDaCarta1[10];
     char nomeDaCidade1[30];
