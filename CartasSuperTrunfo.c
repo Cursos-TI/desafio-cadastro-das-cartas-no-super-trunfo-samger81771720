@@ -2,7 +2,7 @@
 
 int main(){
 
-    //  Declarando as variáveis para a primeira carta:
+    // Declarando as variáveis para a primeira carta:
     char estado1;
     char codigoDaCarta1[10];
     char nomeDaCidade1[30];
@@ -21,7 +21,7 @@ int main(){
     printf("Dentre os 8 estados existentes, representados pelas letras de 'A' à 'H', digite a letra do estado desejado da primeira carta:\n");
     scanf(" %c", &estado1);
 
-    printf("Para compor o código da carta, digite um número que pode ser de 01 até 04:\n");
+    printf("Digite apenas o número que irá compor o código da carta (ex: 01, 02, 03, 04):\n");
     scanf("%s", codigoDaCarta1);
 
     printf("Digite o nome da cidade: \n");
@@ -44,7 +44,7 @@ int main(){
     printf("Dentre os 8 estados existentes, representados pelas letras de 'A' à 'H', digite a letra do estado desejado da segunda carta:\n");
     scanf(" %c", &estado2);
 
-    printf("Para compor o código da segunda carta, digite um número que pode ser de 01 até 04:\n");
+    printf("Digite apenas o número que irá compor o código da carta (ex: 01, 02, 03, 04):\n");
     scanf("%s", codigoDaCarta2);
 
     printf("Digite o nome da cidade: \n");
