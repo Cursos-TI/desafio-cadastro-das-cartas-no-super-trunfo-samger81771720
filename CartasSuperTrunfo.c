@@ -67,8 +67,8 @@ int main(){
     densidadePopulacional2 = populacao2 / areaKm2_2;
 
     // Calculando o PIB de cada cidade:
-    pib_PerCapita1 = pib1 / populacao1;
-    pib_PerCapita2 = pib2 / populacao2;
+    pib_PerCapita1 = (pib1 * 1000000000.0) / populacao1;
+    pib_PerCapita2 = (pib2 * 1000000000.0) / populacao2;
 
     // Exibindo os dados de ambas as cartas
     printf("\n=== CARTAS CADASTRADAS ===\n");
@@ -82,7 +82,7 @@ int main(){
     printf("Área: %.2f km²\n", areaKm2_1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", numeroPontosTuristicos1);
-    printf("Densidade populacional: %.6f\n", densidadePopulacional1);
+    printf("Densidade populacional: %.2f\n", densidadePopulacional1);
     printf("PIB per Capita: %.2f\n", pib_PerCapita1);
 
     // Imprimindo os dados da segunda carta:
@@ -94,7 +94,7 @@ int main(){
     printf("Área: %.2f km²\n", areaKm2_2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", numeroPontosTuristicos2);
-    printf("Densidade populacional: %.6f\n", densidadePopulacional2);
+    printf("Densidade populacional: %.2f\n", densidadePopulacional2);
     printf("PIB per Capita: %.2f\n", pib_PerCapita2);
 
     return 0;
